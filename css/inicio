@@ -1,0 +1,39 @@
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 30px;
+}
+
+.inicio-texto {
+    max-width: 600px;
+}
+
+.inicio-texto h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.inicio-texto h2 {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.botones .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.btn-secundario {
+    background-color: #555;
+}
+
+.inicio-imagen img {
+    width: 250px;
+    border-radius: 50%;
+}
